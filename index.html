@@ -3,23 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>webstudio</title>
   </head>
   <body>
     <!-- Header -->
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+    <header class="page-header">
+      <nav class="page-nav">
+        <a href="./index.html" class="link logo"
+          ><span class="web">Web</span>Studio</a
+        >
+        <ul class="list menu">
+          <li class="menu-item">
+            <a class="link menu-link" href="">Studio</a>
+          </li>
+          <li class="menu-item">
+            <a class="link menu-link" href="">Portfolio</a>
+          </li>
+          <li class="menu-item">
+            <a class="link menu-link" href="">Contacts</a>
+          </li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <address class="contacts">
+        <ul class="contacts-list list">
+          <li class="contacts-item">
+            <a class="link contacts-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contacts-item">
+            <a class="link contacts-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
@@ -34,7 +59,7 @@
       <section>
         <!-- hidden header -->
         <h2>Our advantages</h2>
-        <ul>
+        <ul class="list">
           <li>
             <h3>Strategy</h3>
             <p>
@@ -68,7 +93,7 @@
       <!-- Team -->
       <section>
         <h2>Our Team</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/team_photos/teammate_mark.jpg"
@@ -111,10 +136,66 @@
           </li>
         </ul>
       </section>
+      <!-- Portfolio -->
+      <section>
+        <h2>Our Portfolio</h2>
+        <ul class="list">
+          <li>
+            <img
+              src="./images/portfolio_img/banking_app.jpg"
+              alt="banking_app"
+            />
+            <h3>Banking App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio_img/cashless_payment.jpg"
+              alt="cashless_payment"
+            />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio_img/meditation_app.jpg"
+              alt="meditation_app"
+            />
+            <h3>Meditation App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio_img/taxi_service.jpg"
+              alt="taxi_service"
+            />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio_img/screen_illustrations.jpg"
+              alt="screen_illustrations"
+            />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img
+              src="./images/portfolio_img/online_courses.jpg"
+              alt="online_courses"
+            />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
+          </li>
+        </ul>
+      </section>
     </main>
     <!-- Footer -->
     <footer>
-      <a href="./index.html">WebStudio</a>
+      <a href="./index.html" class="link logo"
+        ><span class="web">Web</span><span class="footer-logo">Studio</span></a
+      >
       <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.

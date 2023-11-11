@@ -20,6 +20,8 @@ body {
   letter-spacing: 0.02em;
 }
 
+/* Header */
+
 .logo {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
@@ -32,10 +34,6 @@ body {
 
 .studio {
   color: #2e2f42;
-}
-
-.footer-light-text {
-  color: #f4f4fd;
 }
 
 .menu-link {
@@ -53,10 +51,16 @@ body {
   font-style: normal;
 }
 
+.contacts-link {
+  color: #434455;
+}
+
 .contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
 }
+
+/* Main content */
 
 .banner {
   background-color: #2e2f42;
@@ -84,6 +88,8 @@ body {
   background-color: #404bbf;
 }
 
+/* Team */
+
 .team {
   background-color: #f4f4fd;
 }
@@ -94,6 +100,7 @@ body {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
@@ -112,4 +119,8 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+
+.footer-light-text {
+  color: #f4f4fd;
 }

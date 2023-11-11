@@ -21,17 +21,17 @@ body {
 }
 
 .logo {
-  color: #2e2f42;
+  color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
-.web {
-  color: #4d5ae5;
+.studio {
+  color: #2e2f42;
 }
 
 .footer-light-text {
@@ -49,8 +49,7 @@ body {
   color: #404bbf;
 }
 
-.contacts-link {
-  color: #434455;
+.contacts {
   font-style: normal;
 }
 
@@ -65,25 +64,24 @@ body {
 
 .banner-header {
   color: #fff;
+  text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .banner-button {
   background-color: #4d5ae5;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: 0.04em;
 }
 
 .banner-button:hover,
 .banner-button:focus {
   background-color: #404bbf;
-}
-
-.banner-button-text {
-  color: #fff;
-  font-weight: 500;
-  line-height: 1.15;
-  letter-spacing: 0.04em;
 }
 
 .team {
@@ -92,6 +90,7 @@ body {
 
 .header-2 {
   color: #2e2f42;
+  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
